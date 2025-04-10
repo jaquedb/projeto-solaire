@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Solaire - Energia Solar</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <!-- Logo no topo -->
+  <header class="topo">
+    <img src="images/logo-solaire-fundo.png" alt="Logo Solaire" class="logo" />
+  </header>
+
+  <div class="container">
+    <h1>Monitoramento</h1>
+  
+    <label for="data">Data:</label>
+    <input type="date" id="data" />
+  
+    <label for="energia">Energia Gerada (kWh):</label>
+    <input type="number" id="energia" placeholder="Ex: 12.5" />
+  
+    <button id="registrarBtn">Registrar</button>
+    <button id="consultarBtn">Consultar</button>
+  
+    <div id="mensagem"></div>
+    <div id="resultadoConsulta"></div>
+  </div>
+  
+
+  <script src="script.js"></script>
+</body>
+</html>

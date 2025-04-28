@@ -62,3 +62,10 @@ button:hover {
     font-weight: bold;
     color: green;
 }
+#consultarTodosBtn {
+    background-color: #28a745;
+}
+
+#consultarTodosBtn:hover {
+    background-color: #218838;
+}
